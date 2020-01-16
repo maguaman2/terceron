@@ -7,6 +7,15 @@ use sysacad;
 
 
 /*Alumno2*/
+create table docentes(
+id int not null auto_increment,
+cedula varchar(10) not null,
+nombres varchar(50) not null,
+correo_electronico varchar(30) not null,
+años_de_docencia int not null,
+edad int default 18,
+CONSTRAINT pk_docentes PRIMARY KEY(id)
+);
 
 
 /*Alumno3*/
@@ -67,6 +76,16 @@ nivel varchar(50) not null
 );
 
 /*Alumno11*/
+
+create table roles(
+/*Alexander Bautista crea el codigo de la creacion de la tabla roles*/
+id int unsigned not null auto_increment primary key,
+descripcion varchar(100) not null,
+tipo_rol varchar(50) not null, 
+activo tinyint(1) not null default 1,
+creado timestamp not null default current_timestamp,
+modificado timestamp not null default current_timestamp on update current_timestamp
+); 
 
 
 /*Alumno12*/
