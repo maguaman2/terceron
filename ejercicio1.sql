@@ -4,7 +4,7 @@
 
 /*Alumno1*/
 
-create table
+
 
 /*Alumno2*/
 
