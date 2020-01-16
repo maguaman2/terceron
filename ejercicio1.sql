@@ -24,6 +24,16 @@ use sysacad;
 
 /*Alumno7*/
 
+create table falta_diciplina(
+id_faltaIndiciplina int not null unique,
+fecha date not null,
+tipo varchar(20) not null,
+observacionIndiciplina TEXT(20) not null,
+acuerdo_compromiso text(20),
+PRIMARY KEY (id_faltaIndiciplina),
+id_estudiante int(20),
+id_inspector int(20)
+);
 
 /*Alumno8*/
 
