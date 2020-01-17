@@ -1,6 +1,6 @@
 /*Creacion de base de datos*/
 /*profesor*/
-
+use base;
 
 /*Alumno1*/
 
