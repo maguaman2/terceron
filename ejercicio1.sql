@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 /*1era linea Creacioa de base de datos*/
 /*profesor*/
 <<<<<<< HEAD
 use base;
 
 =======
+=======
+/*Creacion de base de datos*/
+/*profesor 1*/
+>>>>>>> ab56adb60790bb02dfab23197d09edb6af5aa0f8
 create database sysacad;
 use sysacad;
 >>>>>>> d5ad17ea9b1c76e71c1cf103379bb7f6a18fb977
