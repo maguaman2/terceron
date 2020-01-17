@@ -39,9 +39,25 @@ CONSTRAINT pk_docentes PRIMARY KEY(id)
 
 /*Alumno9*/
 
+create table inspector(
+id int unsigned not null primary key auto_increment,
+cedula varchar (10) not null unique,
+nombre varchar (50) not null,
+correo varchar(100) not null unique,
+fecha_nacimiento datetime,
+seccion enum ('Matutino','Vespertino','Nocturno') not null,
+activo tinyint(1) not null default 1
+);
+
 
 /*Alumno10*/
-
+create table usuarios(
+id int unsigned not null  auto_increment primary key,
+nombreUsuario varchar(50) not null unique key,
+contraseña varchar(50) not null,
+correo varchar(50) not null,
+nivel varchar(50) not null
+);
 
 /*Alumno11*/
 
