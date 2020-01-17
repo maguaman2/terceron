@@ -1,9 +1,5 @@
 /*Creacion de base de datos*/
-/*profesor*/
-<<<<<<< HEAD
-use base;
-
-=======
+/*profesor 1*/
 create database sysacad;
 use sysacad;
 >>>>>>> d5ad17ea9b1c76e71c1cf103379bb7f6a18fb977
