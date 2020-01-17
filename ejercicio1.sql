@@ -1,4 +1,4 @@
-/*Creacion de base de datos*/
+/*1era linea Creacioa de base de datos*/
 /*profesor*/
 <<<<<<< HEAD
 use base;
