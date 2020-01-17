@@ -28,6 +28,7 @@ El repositorio de la materia de base de datos usa **git** para manejo de version
   > ```git pull origin master```
   
   Este comando solicita el nombre de usuario y password configurados al crear la cuenta en [github.com](https://github.com) 
+  
 12. Agregar commit con una mensaje donde se indique el nombre del estudiante y la acción realizada.
   > ```git commit -m "Marco Guaman agrega el codigo de creacion de la tabla clientes"```
 13. Subir cambios al servidor
