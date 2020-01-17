@@ -18,7 +18,6 @@ CONSTRAINT pk_docentes PRIMARY KEY(id)
 );
 
 
-
 /*Alumno3*/
 
 
@@ -35,7 +34,14 @@ CONSTRAINT pk_docentes PRIMARY KEY(id)
 
 
 /*Alumno8*/
-
+create table tipo_falta(
+	id int not null auto_increment primary key,
+    descripcion varchar(100) not null,
+    tipoFalta enum('Leve','Grave','Muy Grave'),
+    sancion_puntos int default 1,
+    creado timestamp not null default current_timestamp,
+    modificado timestamp not null default current_timestamp on update current_timestamp
+);
 
 /*Alumno9*/
 
