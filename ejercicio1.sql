@@ -11,7 +11,18 @@ use sysacad;
 
 
 /*Alumno3*/
+create table Cursos(
+id int not null auto_increment,
+curso varchar (50)not null,
 
+
+paralelo varchar (50) not null,
+bloque varchar (50) not null,
+estatus varchar (50) not null,
+constraint pk_propietario primary key (id),
+constraint uk_propietario unique (paralelo)
+
+);
 
 /*Alumno4*/
 
