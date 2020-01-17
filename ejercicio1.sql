@@ -42,7 +42,13 @@ activo tinyint(1) not null default 1
 
 
 /*Alumno10*/
-
+create table usuarios(
+id int unsigned not null  auto_increment primary key,
+nombreUsuario varchar(50) not null unique key,
+contraseña varchar(50) not null,
+correo varchar(50) not null,
+nivel varchar(50) not null
+);
 
 /*Alumno11*/
 
