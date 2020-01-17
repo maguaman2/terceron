@@ -7,6 +7,15 @@ use sysacad;
 
 
 /*Alumno2*/
+create table docentes(
+id int not null auto_increment,
+cedula varchar(10) not null,
+nombres varchar(50) not null,
+correo_electronico varchar(30) not null,
+años_de_docencia int not null,
+edad int default 18,
+CONSTRAINT pk_docentes PRIMARY KEY(id)
+);
 
 
 
