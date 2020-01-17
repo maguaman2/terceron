@@ -4,7 +4,16 @@ create database sysacad;
 use sysacad;
 /*Alumno1*/
 
-
+Create table estudiantes 
+(
+    id int not null auto_increment,
+    cedula varchar (50),
+    nombre varchar (100) not null,
+    direccion varchar (50),
+    fecha_nacimiento datetime,
+    genero enum ('M','F','ND') not null,
+    email varchar(50) not null
+);
 
 /*Alumno2*/
 
