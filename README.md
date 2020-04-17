@@ -37,3 +37,5 @@ El repositorio de la materia de base de datos usa **git** para manejo de version
   Este comando solicita el nombre de usuario y password configurados al crear la cuenta en [github.com](https://github.com) 
 
 :weary:  Si no funciona algo consulte con [Sangoogle](https://google.com) 
+
+![Drag Racing](https://drive.google.com/open?id=198xpRelR8lHUXh2fWLwCp4NRjz2B69mg)
