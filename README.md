@@ -38,4 +38,4 @@ El repositorio de la materia de base de datos usa **git** para manejo de version
 
 :weary:  Si no funciona algo consulte con [Sangoogle](https://google.com) 
 
-![Drag Racing](https://drive.google.com/open?id=198xpRelR8lHUXh2fWLwCp4NRjz2B69mg)
+![](https://www.stackoverflowbusiness.com/hubfs/B2B-SO/images/logo-so-PRINT-4.png)
