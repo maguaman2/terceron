@@ -38,4 +38,4 @@ El repositorio de la materia de base de datos usa **git** para manejo de version
 
 :weary:  Si no funciona algo consulte con [Sangoogle](https://google.com) 
 
-![](https://www.stackoverflowbusiness.com/hubfs/B2B-SO/images/logo-so-PRINT-4.png)
+![](https://drive.google.com/file/d/198xpRelR8lHUXh2fWLwCp4NRjz2B69mg/view?usp=sharing)
